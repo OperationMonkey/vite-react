@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import user from '@testing-library/user-event';
 import { act } from 'react-dom/test-utils';
 
-import { App } from '../App';
+import { App } from '../src/App';
 
 test("should be true", () => {
   expect(true).toBe(true)
