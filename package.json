@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "eslint '**/*.{js,jsx,json,ts,tsx}' --quiet",
+    "prettier": "npx prettier --write",
     "husky:prepare": "husky install",
     "test": "jest",
     "dev": "vite",
@@ -15,8 +16,9 @@
   },
   "devDependencies": {
     "@operationmonkey/commitlint-config-core": "1.0.0",
-    "@operationmonkey/eslint-config-core": "1.0.0",
+    "@operationmonkey/eslint-config-core": "1.0.1",
     "@operationmonkey/lint-staged-config-core": "1.0.0",
+    "@operationmonkey/prettier-config-core": "1.0.0",
     "@operationmonkey/tsconfig-core": "1.0.5",
     "@operationmonkey/vite-jest-config-core": "1.1.1",
     "@types/react": "18.0.28",
