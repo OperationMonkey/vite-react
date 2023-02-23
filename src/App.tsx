@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import reactLogo from './assets/react.svg'
-import './App.css'
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 export function App(): JSX.Element {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -29,5 +29,5 @@ export function App(): JSX.Element {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  )
+  );
 }
