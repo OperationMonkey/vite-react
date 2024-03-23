@@ -19,7 +19,7 @@
     "@operationmonkey/eslint-config-core": "2.0.0",
     "@operationmonkey/lint-staged-config-core": "2.0.0",
     "@operationmonkey/prettier-config-core": "2.0.0",
-    "@operationmonkey/tsconfig-core": "2.0.0",
+    "@operationmonkey/tsconfig-core": "2.0.1",
     "@operationmonkey/vite-jest-config-core": "3.0.1",
     "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
